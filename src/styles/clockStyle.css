@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+p {
+  font-family: Lato;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+.clock-wrapper {
+  width: 200px;
+  height: 200px;
+  margin-left: 7.5px;
+}
+
+.clock {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(245, 246, 250, 1) 100%
+  );
+  position: relative;
+  border: 8px solid #666;
+  box-shadow: inset 0px 0px rgba(52, 73, 94, 0.75);
+}
+
+.hours {
+  position: absolute;
+  width: 20%;
+  height: 6px;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  margin-top: -4px;
+  transform-origin: center left;
+  transform: rotate(120deg) translateX(-10px);
+  box-shadow: 0 2px 3px rgba(52, 73, 94, 0.5);
+}
+
+.minutes {
+  position: absolute;
+  width: 40%;
+  height: 4px;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  margin-top: -2px;
+  transform-origin: center left;
+  transform: rotate(30deg) translateX(-15px);
+  box-shadow: 0 2px 3px rgba(52, 73, 94, 0.5);
+}
+
+.seconds {
+  position: absolute;
+  width: 42.5%;
+  height: 2px;
+  background-color: crimson;
+  top: 50%;
+  left: 50%;
+  margin-top: -1px;
+  transform-origin: center left;
+  transform: rotate(240deg) translateX(-15px);
+  box-shadow: 0 2px 3px rgba(192, 57, 43, 0.5);
+}
+
+.hours-marks1 {
+  position: absolute;
+  z-index: 2;
+  width: 2px;
+  height: 15px;
+  background: #666;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: 50% 92px;
+  transform: rotate(0deg);
+}
+
+.hours-marks2 {
+  position: absolute;
+  z-index: 2;
+  width: 2px;
+  height: 15px;
+  background: #666;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: 50% 92px;
+  transform: rotate(30deg);
+}
+
+.hours-marks3 {
+  position: absolute;
+  z-index: 2;
+  width: 2px;
+  height: 15px;
+  background: #666;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: 50% 92px;
+  transform: rotate(60deg);
+}
+.hours-marks4 {
+  position: absolute;
+  z-index: 2;
+  width: 2px;
+  height: 15px;
+  background: #666;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: 50% 92px;
+  transform: rotate(90deg);
+}
+.hours-marks5 {
+  position: absolute;
+  z-index: 2;
+  width: 2px;
+  height: 15px;
+  background: #666;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: 50% 92px;
+  transform: rotate(120deg);
+}
+.hours-marks6 {
+  position: absolute;
+  z-index: 2;
+  width: 2px;
+  height: 15px;
+  background: #666;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: 50% 92px;
+  transform: rotate(150deg);
+}
+.hours-marks7 {
+  position: absolute;
+  z-index: 2;
+  width: 2px;
+  height: 15px;
+  background: #666;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: 50% 92px;
+  transform: rotate(180deg);
+}
+.hours-marks8 {
+  position: absolute;
+  z-index: 2;
+  width: 2px;
+  height: 15px;
+  background: #666;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: 50% 92px;
+  transform: rotate(210deg);
+}
+.hours-marks9 {
+  position: absolute;
+  z-index: 2;
+  width: 2px;
+  height: 15px;
+  background: #666;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: 50% 92px;
+  transform: rotate(240deg);
+}
+.hours-marks10 {
+  position: absolute;
+  z-index: 2;
+  width: 2px;
+  height: 15px;
+  background: #666;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: 50% 92px;
+  transform: rotate(270deg);
+}
+.hours-marks11 {
+  position: absolute;
+  z-index: 2;
+  width: 2px;
+  height: 15px;
+  background: #666;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: 50% 92px;
+  transform: rotate(300deg);
+}
+.hours-marks12 {
+  position: absolute;
+  z-index: 2;
+  width: 2px;
+  height: 15px;
+  background: #666;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: 50% 92px;
+  transform: rotate(330deg);
+}
+
+.hours-marks:nth-child(5n) {
+  position: absolute;
+  z-index: 2;
+  width: 4px;
+  height: 25px;
+  background: #666;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: 50% 150px;
+}
