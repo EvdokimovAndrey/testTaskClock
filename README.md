@@ -47,6 +47,8 @@
 ```javascript
 npm install
 ```
+
+## Запуск
 ```javascript
 npm start
 ```
