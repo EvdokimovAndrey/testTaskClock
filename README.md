@@ -52,4 +52,4 @@ npm start
 ```
 
 ## Стек
-Webpack + React + Redux;
+Webpack + React + Redux
